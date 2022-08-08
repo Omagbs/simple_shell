@@ -2,11 +2,11 @@
 A simple UNIX command interpreter. A group project for the low_level_programming module in the ALX software engineering programme.
 
 # Authors
-Lucky Avbunufe
+* Lucky Avbunufe
 
-Paul Omagbemi
+* Paul Omagbemi
 
-#### Status
+### Status
 *Ongoing*
 
 
