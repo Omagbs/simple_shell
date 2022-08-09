@@ -10,5 +10,6 @@
 
 char *_getline(void);
 char *_getenv(const char *name);
+void _printdir(void);
 
 #endif

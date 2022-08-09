@@ -9,7 +9,7 @@
  * Return: always 0
  */
 
-int main(int argc, char *argv[], char *env[])
+int main(int argc, char *argv[])
 {
 	int i = 0;
 	extern char **environ;
@@ -26,7 +26,6 @@ int main(int argc, char *argv[], char *env[])
 		i++;
 	}
 
-	printf("[env-main] %p\n", *env);
 	printf("[environ] %p\n", *environ);
 	return (0);
 }
