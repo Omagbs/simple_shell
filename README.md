@@ -8,3 +8,5 @@ A simple UNIX command interpreter. A group project for the low_level_programming
 
 ### Status
 *Ongoing*
+
+[![wakatime](https://wakatime.com/badge/github/Omagbs/simple_shell.svg)](https://wakatime.com/badge/github/Omagbs/simple_shell)
