@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - practice using getline
+ *
+ * Return: Always 0
+ */
+
 int main(void)
 {
 	ssize_t nread;

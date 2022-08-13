@@ -8,7 +8,6 @@
 
 void _printdir(void)
 {
-	extern char **environ;
 	int i, j = 0;
 	char *dir = _getenv("PATH");
 

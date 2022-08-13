@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdlib>
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
@@ -15,7 +15,7 @@
 
 typedef struct list
 {
-	char var*
+	char *var;
 	struct list *next;
 } list_t;
 

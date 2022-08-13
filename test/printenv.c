@@ -9,10 +9,9 @@
  * Return: always 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[], char *env[])
 {
 	int i = 0;
-	extern char **environ;
 
 	if (argc > 1)
 	{
@@ -20,12 +19,12 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 
-	while (environ[i] != NULL)
+	while (env[i] != NULL)
 	{
-		printf("[%i] %s\n", i, environ[i]);
+		printf("[%i] %s\n", i, env[i]);
 		i++;
 	}
 
-	printf("[environ] %p\n", *environ);
+	printf("[env] %p\n", *env);
 	return (0);
 }

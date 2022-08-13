@@ -8,17 +8,17 @@
 
 char *_getline(void)
 {
-        char *line = NULL;
+	char *line = NULL;
 
-        printf("#cisfun$ ");
+	printf("#cisfun$ ");
 
-        line = malloc(sizeof(*line) * 1024);
-        if (line == NULL)
-                return (NULL);
+	line = malloc(sizeof(*line) * 1024);
+	if (line == NULL)
+		return (NULL);
 
-        scanf("%[^\n]s", line);
+	scanf("%[^\n]s", line);
 
-        return (line);
+	return (line);
 }
 
 /**
@@ -28,7 +28,7 @@ char *_getline(void)
  * Return: always 0
  */
 
-int main()
+int main(void)
 {
 	char *cmd = _getline();
 	char *args[] = {cmd, NULL, NULL};

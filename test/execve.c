@@ -1,7 +1,9 @@
 #include "shell.h"
 
 /**
- * main - execve example
+ * main - execve exampl
+ * @argc: argument counter
+ * @argv: pointer to array of arguments
  *
  * Return: 0 on sucess
  */
